@@ -1,0 +1,27 @@
+
+img{
+  border-radius: 50%;
+  width: 10rem;
+  
+}
+
+.flex{
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+p{
+  margin: 0.3rem;
+}
+
+span{
+  color: #9c9c9c;
+}
+
+.pad{
+  padding-left: 0.5rem;
+}
+.hashtags{
+  color:#385898;
+}

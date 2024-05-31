@@ -1,0 +1,49 @@
+.skeleton {
+    background: linear-gradient(90deg,
+            #f0f0f0 25%,
+            #e0e0e0 50%,
+            #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: animateBg 3s infinite;
+}
+
+@keyframes animateBg {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+.profile-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.big {
+    margin: 2rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.medium {
+    margin-left: 2rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.small {
+    margin: 2rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.skeleton-container {
+    position: absolute;
+    display: flex;
+    transform: translate(-50%, -50%);
+}
