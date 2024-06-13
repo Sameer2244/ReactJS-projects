@@ -1,0 +1,11 @@
+@font-face {
+    font-family: stopwatchFont;
+    src: url('./clock_font.ttf');
+}
+.stopwatchfont{
+    font-family: stopwatchFont;
+    font-size: 50px;
+}
+button{
+    margin: 0 1rem;
+}

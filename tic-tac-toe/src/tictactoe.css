@@ -1,0 +1,22 @@
+.game-container{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.flex{
+    display: flex;
+}
+.cell{
+    font-size: 2rem;
+    border: 1px solid white;
+    width: 70px;
+    height: 70px;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+img{
+    position: absolute;
+    transform: translate(-50%,30%);
+    width: 20rem;
+    height: 15rem;
+}

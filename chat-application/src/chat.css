@@ -1,0 +1,48 @@
+.chatbox {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.message {
+    background-color: black;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-align: right;
+    min-width: 6rem;
+}
+
+span {
+    font-size: 12px;
+}
+
+p {
+    color: black;
+}
+
+button {
+    border: 1px solid white !important;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+input {
+    width: 100%;
+    background-color: wheat;
+    color: black;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+img {
+    width: 20px;
+}

@@ -1,0 +1,8 @@
+
+.item{
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    color: black;
+    cursor: grab;
+}
